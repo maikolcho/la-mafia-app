@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:elevation="8dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/menu_navigation"
+        style="@style/AppTheme"
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="labeled"
+
+        app:itemIconTint="@color/defaultIconColor"
+        app:itemTextColor="@color/black"
+        tools:ignore="VisualLintBottomNav" />
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:ignore="MissingConstraints,UselessParent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true">
+
+
+                <VideoView
+                    android:id="@+id/video1"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="@string/Todo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/la_mafia"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+
+                    android:gravity="center"
+                    android:text="@string/La_mafia_se_sienta_en_la_mesa"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+
+                <Button
+                    android:id="@+id/btnReservaTuMesa"
+                    android:layout_width="190dp"
+                    android:layout_height="60dp"
+                    android:onClick="openReservaTuMesaWebsite"
+
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_border"
+                    android:padding="10dp"
+                    android:text="@string/reserva_tu_mesa"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck,UsingOnClickInXml" />
+
+                <Button
+                    android:id="@+id/btnPedirOnline"
+                    android:layout_width="190dp"
+                    android:layout_height="60dp"
+
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_border"
+
+                    android:onClick="openPedirOnlineWebsite"
+                    android:scrollbarStyle="insideInset"
+                    android:text="@string/pedir_online"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_view"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    android:text="@string/o_te_lo_llevamos_a_casa"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:drawableTint="@color/black"
+                    tools:ignore="ObsoleteLayoutParam" />
+
+
+                <ImageButton
+                    android:id="@+id/btnGlobo"
+                    android:layout_width="180dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/glovo"
+
+                    android:contentDescription="@string/abrir_glovo"
+
+
+                    android:onClick="openGlovoWebsite"
+                    tools:ignore="ImageContrastCheck,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btnJustEat"
+                    android:layout_width="180dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/justeat"
+                    android:contentDescription="@string/abrir_just_eat"
+
+                    android:onClick="openJustEatWebsite"
+                    android:text="@string/just_eat"
+                    tools:ignore="ImageContrastCheck,ImageContrastCheck,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btnUberEats"
+                    android:layout_width="180dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/uber"
+                    android:contentDescription="@string/abrir_uber_eats"
+                    android:onClick="openUberEatsWebsite"
+                    android:text="@string/uber_eats"
+                    tools:ignore="UsingOnClickInXml" />
+
+
+
+
+
+
+
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/fotoparainformacion"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/TODO" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent" />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

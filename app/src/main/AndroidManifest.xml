@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+
+
+
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+
+
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/La_mafia_se_sienta_en_la_mesa"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaMafia"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.example.BottomNavigation.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.example.CONTAINER_LAYOUT"
+                android:resource="@layout/container_layout" /> <!-- Aquí se especifica tu archivo XML personalizado -->
+        </activity>
+    </application>
+
+</manifest>

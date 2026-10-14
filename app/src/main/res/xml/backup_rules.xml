@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older that API 31
+   See https://developer.android.com/about/versions/12/backup-restore
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"/>
+-->
+</full-backup-content>

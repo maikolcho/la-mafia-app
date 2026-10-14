@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+
+            android:background="@drawable/button_border"
+            android:text="@string/galerias"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:background="@drawable/rounded_frame"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="200dp"
+            android:id="@+id/image_view"
+            tools:ignore="ContentDescription" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="end">
+
+
+        <LinearLayout
+                android:id="@+id/imagenGrande"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+                android:padding="2dp"
+            tools:ignore="ScrollViewSize">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText,DuplicateSpeakableTextCheck" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/todos"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
+
+
+

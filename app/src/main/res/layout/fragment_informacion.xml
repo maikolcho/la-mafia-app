@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentInformacion">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/flFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+
+                <EditText
+                    android:id="@+id/txtLatitud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="latitude"
+                    android:hint="@string/latitud"
+                    android:visibility="gone"
+                    android:inputType="numberDecimal"
+                    tools:ignore="DuplicateClickableBoundsCheck,VisualLintTextFieldSize,VisualLintOverlap" />
+
+                <EditText
+                    android:id="@+id/txtLongitud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="longitude"
+                    android:hint="@string/longitud"
+                    android:visibility="gone"
+                    android:inputType="numberDecimal"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+
+                <!--suppress AndroidLintFragmentContainerView -->
+
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    app:mapType="normal"
+                    android:layout_width="245dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="880dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+
+
+                   />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@id/image_view"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="@string/disfruta_de_la_mejor_cocina_italo_mediterr_nea_en_nuestro_restaurante_italiano_de_c_rdoba_ubicado_en_el_centro_de_la_ciudad_en_la_avenida_gran_capit_n_te_ofrecemos_la_mayor_variedad_de_pasta_pizza_risotto_y_una_selecci_n_de_especialidades_en_nuestro_local_con_capacidad_para_160_personas_y_con_una_amplia_terraza_disfruta_en_pareja_en_grupo_de_amigos_en_familia_gracias_a_la_zona_piccolino_infantil_o_en_grupo_ya_que_contamos_con_un_sal_n_privado"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="ObsoleteLayoutParam,VisualLintLongText" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_view"
+                    android:layout_marginTop="210dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="@string/si_lo_deseas_tambi_n_colaboramos_con_diferentes_plataformas_para_que_puedas_recibir_tu_comida_italiana_favorita_a_domicilio_en_c_rdoba_y_s_entre_nuestras_especialidades_italianas_tambi_n_se_encuentra_la_pizza_en_concreto_m_s_de_una_veintena_de_opciones_somos_una_de_las_pizzer_as_de_referencia_en_c_rdoba_as_que_no_te_quedes_sin_probar_nuestras_pizzas_y_p_delas_para_llevar_a_domicilio_o_para_comer_en_el_restaurante"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="ObsoleteLayoutParam,VisualLintLongText"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@id/image_view"
+                    android:layout_marginTop="30dp"
+
+                    android:gravity="center"
+                    android:text="@string/informacion_sobre_el_restaurante"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/flFragment"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/image_view"
+            android:layout_marginTop="360dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/mucho_m_s_que_pizza_y_pasta_descubre_todas_nuestras_opciones_en_c_rdoba"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="5dp"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/Adem_s_de_una_variada_elecci_n_de_pasta_y_pizza_te_ofrecemos_especialidades_como_el_risotto_carpaccio_o_lasagna_aparte_de_una_variada_selecci_n_de_entrantes_carnes_pescados_y_deliciosos_postres_italianos_nuestro_italiano_en_c_rdoba_tambi_n_se_caracteriza_por_la_sofisticada_decoraci_n_que_incluye_el_emblema_de_la_casa_nuestro_jard_n_vertical"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="NotSibling,ObsoleteLayoutParam,VisualLintLongText" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginEnd="162dp"
+            android:text="TICKETS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="620dp"
+            android:layout_marginEnd="8dp"
+            android:text="Ticket Restarurante, Sodexo y cheque Gourmet en Cordoba"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="650dp"
+
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="nuestro restaurante en cordoba acepta cheque gourmet sodexo y ticket restaurante ven a disfrutar de la mejor comida italiana"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="HardcodedText,SmallSp,VisualLintLongText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view"
+            android:layout_marginTop="810dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="@string/contacto_682681485"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="840dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="@string/ubicacion_av_del_gran_capitan_46_14008_cordoba"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="NotSibling,ObsoleteLayoutParam" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="155dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginEnd="139dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/imgticketsrest_lm__1_"
+            tools:ignore="ImageContrastCheck" />
+
+
+
+                <ImageButton
+                    android:id="@+id/btncall"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="344dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:contentDescription="@string/llamar"
+                    android:onClick="callRestaurant"
+                    android:src="@drawable/outline_call_24"
+                    android:text="@string/llamar"
+                    tools:ignore="ImageContrastCheck,ObsoleteLayoutParam,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btnmap"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+
+                    android:contentDescription="@string/c_mo_llegar"
+                    android:onClick="showRestaurantLocation"
+                    android:src="@drawable/outline_location_on_24"
+                    android:text="@string/c_mo_llegar"
+                    tools:ignore="ObsoleteLayoutParam,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/btnemail"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="497dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:contentDescription="@string/email"
+                    android:onClick="sendEmail"
+                    android:src="@drawable/outline_email_24"
+                    android:text="@string/email"
+                    tools:ignore="ObsoleteLayoutParam,UsingOnClickInXml" />
+
+
+
+
+        </FrameLayout>
+
+
+
+        </ScrollView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

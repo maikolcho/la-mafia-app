@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<resources>
+    <item name="txtLatitud" type="id" />
+    <item name="txtLongitud" type="id" />
+    <item name="map" type="id" />
+    <item name="mapFragment" type="id" />
+    <item name="btnMap" type="id" />
+
+    <item name="frame_container" type="id" />
+    <item name="fotos" type="id" />
+    <item name="informacionFragment" type="id" />
+    <item name="menusFragment" type="id" />
+    <item name="fotosFragment" type="id" />
+    <item name="container" type="id" />
+    <item name="buttonOpenWebsite" type="id" />
+    <item name="inicioFragment" type="id" />
+    <item name="btnlocation" type="id" />
+    <item name="recycler_view" type="id" />
+    <item name="mapView" type="id" />
+</resources>

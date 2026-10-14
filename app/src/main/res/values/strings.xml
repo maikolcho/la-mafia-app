@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright (c)
+  ~  * "La Mafia se Sienta en la Mesa,Cordoba" - Todos los derechos reservados.
+  ~  * Título:       [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Descripción:  [Restaurante Italiano]
+  ~  * Autor:        [Nelson Villalba Vergara]
+  ~  * Sitio web:    [La Mafia se Sienta en la Mesa,Cordoba]
+  ~  * Contacto:     [nelson_ariel@hotmail.es]
+  ~  * Fecha:        [2024]
+  ~  * Aviso Legal:
+  ~  * Este archivo y el código fuente adjunto son parte de [La Mafia se Sienta en la Mesa,Cordoba].
+  ~  * Todos los derechos sobre el código fuente, diseño y recursos visuales
+  ~  * pertenecen a [Nelson Villalba Vergara].
+  ~  * Queda prohibida la reproducción, distribución o modificación no autorizada
+  ~  * de este código fuente o cualquier otro componente de la aplicación.
+  ~  * [La Mafia se Sienta en la Mesa,Cordoba] es una marca registrada de [Nelson Villalba Vergara].
+  ~  */
+  ~
+  -->
+
+<resources>
+
+    <string name="menu_item">Menu Item</string>
+    <string name="fragment_menu1">Descripción del menú 1</string>
+    <string name="fragment_menu2">Descripción del menú 2</string>
+    <string name="fragment_menu3">Descripción del menú 3</string>
+    <string name="fragment_menu4">Descripción del menú 4</string>
+    <string name="fragment_menu5">Descripción del menú 5</string>
+    <string name="fragment_menu6">Descripción del menú 6</string>
+    <string name="fragment_menu7">Descripción del menú 7</string>
+
+    <string name="image_description">Descripción de la imagen</string>
+    <string name="large_image_description">Imagen ampliada </string>
+    <string name="menu_item_image_description">Imagen del ítem del menú</string>
+    <string name="fragment_menus">Descripción del menú</string>
+    <string name="BotonSiguiente">Fotos</string>
+    <string name="tv1">Primer Activity</string>
+    <string name="BotonAnterior">Anterior</string>
+    <string name="tv2">Primer Activity</string>
+    <string name="app_name">La Mafia</string>
+    <string name="todo" />
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_api_key">AIzaSyBWkI6FyRWRjBnFJCbq_CyW4jX4xTQsBgY
+    </string>
+    <string name="reserva_tu_mesa">RESERVA TU MESA</string>
+    <string name="abrir_glovo">Abrir Glovo</string>
+    <string name="abrir_just_eat">Abrir Just Eat</string>
+    <string name="abrir_uber_eats">Abrir Uber Eats</string>
+    <string name="abrir_carta">Abrir Carta</string>
+
+    <string name="llamar">Llamar</string>
+    <string name="c_mo_llegar">Cómo Llegar</string>
+    <string name="email">Email</string>
+    <string name="la_mafia_se_sienta_en_la_mesa">La Mafia Se Sienta en la Mesa</string>
+    <string name="disfruta_de_la_mejor_cocina_italo_mediterr_nea_en_nuestro_restaurante_italiano_de_c_rdoba_ubicado_en_el_centro_de_la_ciudad_en_la_avenida_gran_capit_n_te_ofrecemos_la_mayor_variedad_de_pasta_pizza_risotto_y_una_selecci_n_de_especialidades_en_nuestro_local_con_capacidad_para_160_personas_y_con_una_amplia_terraza_disfruta_en_pareja_en_grupo_de_amigos_en_familia_gracias_a_la_zona_piccolino_infantil_o_en_grupo_ya_que_contamos_con_un_sal_n_privado_si_lo_deseas_tambi_n_colaboramos_con_diferentes_plataformas_para_que_puedas_recibir_tu_comida_italiana_favorita_a_domicilio_en_c_rdoba_y_s_entre_nuestras_especialidades_italianas_tambi_n_se_encuentra_la_pizza_en_concreto_m_s_de_una_veintena_de_opciones_somos_una_de_las_pizzer_as_de_referencia_en_c_rdoba_as_que_no_te_quedes_sin_probar_nuestras_pizzas_y_p_delas_para_llevar_a_domicilio_o_para_comer_en_el_restaurante">¡Disfruta de la mejor cocina italo-mediterránea en nuestro restaurante italiano de Córdoba! Ubicado en el centro de la ciudad, en la avenida Gran Capitán, te ofrecemos la mayor variedad de pasta, pizza, risotto y una selección de especialidades en nuestro local con capacidad para 160 personas y con una amplia terraza. Disfruta en pareja, en grupo de amigos, en familia gracias a la Zona Piccolino infantil o en grupo, ya que contamos con un salón privado. Si lo deseas, también colaboramos con diferentes plataformas para que puedas recibir tu comida italiana favorita a domicilio en Córdoba. ¡Y sí! Entre nuestras especialidades italianas también se encuentra la pizza, en concreto, más de una veintena de opciones. Somos una de las pizzerías de referencia en Córdoba así que, ¡no te quedes sin probar nuestras pizzas y pídelas para llevar, a domicilio o para comer en el restaurante!</string>
+    <string name="o_te_lo_llevamos_a_casa">¿O te lo llevamos a casa?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="galerias">Galerias</string>
+    <string name="BotonCompartir" />
+    <string name="Todo">todo</string>
+    <string name="La_mafia_se_sienta_en_la_mesa">La Mafia Se Sienta en la Mesa</string>
+    <string name="contacto_682681485">Contacto: 682681485</string>
+    <string name="ubicacion_av_del_gran_capitan_46_14008_cordoba">Ubicacion: Av, Del Gran Capitan 46, 14008 Cordoba</string>
+    <string name="pedir_online">PEDIR ONLINE</string>
+    <string name="just_eat">Just Eat</string>
+    <string name="uber_eats">Uber Eats</string>
+    <string name="carta">CARTA</string>
+    <string name="menus_grupos_y_eventos">MENUS Grupos y Eventos</string>
+    <string name="fotos">FOTOS</string>
+    <string name="informacion_sobre_el_restaurante">INFORMACION SOBRE EL RESTAURANTE</string>
+    <string name="informaci_n_sobre_nuestro_restaurante_italiano_con_terraza_en_c_rdoba">Información sobre nuestro restaurante italiano con terraza en Córdoba</string>
+    <string name="Disfruta_de_la_mejor_cocina_italo_mediterr_nea_en_nuestro_restaurante_italiano_de_c_rdoba_ubicado_en_el_centro_de_la_ciudad_en_la_avenida_gran_capit_n_te_ofrecemos_la_mayor_variedad_de_pasta_pizza_risotto_y_una_selecci_n_de_especialidades_en_nuestro_local_con_capacidad_para_160_personas_y_con_una_amplia_terraza_disfruta_en_pareja_en_grupo_de_amigos_en_familia_gracias_a_la_zona_piccolino_infantil_o_en_grupo_ya_que_contamos_con_un_sal_n_privado_si_lo_deseas_tambi_n_colaboramos_con_diferentes_plataformas_para_que_puedas_recibir_tu_comida_italiana_favorita_a_domicilio_en_c_rdoba_y_s_entre_nuestras_especialidades_italianas_tambi_n_se_encuentra_la_pizza_en_concreto_m_s_de_una_veintena_de_opciones_somos_una_de_las_pizzer_as_de_referencia_en_c_rdoba_as_que_no_te_quedes_sin_probar_nuestras_pizzas_y_p_delas_para_llevar_a_domicilio_o_para_comer_en_el_restaurante">¡Disfruta de la mejor cocina italo-mediterránea en nuestro restaurante italiano de Córdoba! Ubicado en el centro de la ciudad, en la avenida Gran Capitán, te ofrecemos la mayor variedad de pasta, pizza, risotto y una selección de especialidades en nuestro local con capacidad para 160 personas y con una amplia terraza. Disfruta en pareja, en grupo de amigos, en familia gracias a la Zona Piccolino infantil o en grupo, ya que contamos con un salón privado. Si lo deseas, también colaboramos con diferentes plataformas para que puedas recibir tu comida italiana favorita a domicilio en Córdoba. ¡Y sí! Entre nuestras especialidades italianas también se encuentra la pizza, en concreto, más de una veintena de opciones. Somos una de las pizzerías de referencia en Córdoba así que, ¡no te quedes sin probar nuestras pizzas y pídelas para llevar, a domicilio o para comer en el restaurante!</string>
+    <string name="mucho_m_s_que_pizza_y_pasta_descubre_todas_nuestras_opciones_en_c_rdoba">¡Mucho más que pizza y pasta! Descubre todas nuestras opciones en Córdoba</string>
+    <string name="adem_s_de_una_variada_elecci_n_de_pasta_y_pizza_te_ofrecemos_especialidades_como_el_risotto_carpaccio_o_lasagna_aparte_de_una_variada_selecci_n_de_entrantes_carnes_pescados_y_deliciosos_postres_italianos_nuestro_italiano_en_c_rdoba_tambi_n_se_caracteriza_por_la_sofisticada_decoraci_n_que_incluye_el_emblema_de_la_casa_nuestro_jard_n_vertical">Además de una variada elección de pasta y pizza, te ofrecemos especialidades como el risotto, carpaccio o lasagna, aparte de una variada selección de entrantes, carnes, pescados y deliciosos postres italianos. Nuestro italiano en Córdoba también se caracteriza por la sofisticada decoración, que incluye el emblema de la casa: nuestro jardín vertical.</string>
+    <string name="Adem_s_de_una_variada_elecci_n_de_pasta_y_pizza_te_ofrecemos_especialidades_como_el_risotto_carpaccio_o_lasagna_aparte_de_una_variada_selecci_n_de_entrantes_carnes_pescados_y_deliciosos_postres_italianos_nuestro_italiano_en_c_rdoba_tambi_n_se_caracteriza_por_la_sofisticada_decoraci_n_que_incluye_el_emblema_de_la_casa_nuestro_jard_n_vertical">Además de una variada elección de pasta y pizza, te ofrecemos especialidades como el risotto, carpaccio o lasagna, aparte de una variada selección de entrantes, carnes, pescados y deliciosos postres italianos. Nuestro italiano en Córdoba también se caracteriza por la sofisticada decoración, que incluye el emblema de la casa: nuestro jardín vertical.</string>
+    <string name="TODO">TODO</string>
+    <string name="terraza">TERRAZA:</string>
+    <string name="informacion">Informacion</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="desplazamiento_vertical_de_im_genes_de_galer_a">Desplazamiento vertical de imágenes de galería</string>
+    <string name="menus">Menus</string>
+    <string name="open_website">Open Website</string>
+    <string name="imagen_encima_del_lienzo">Imagen encima del lienzo</string>
+    <string name="disfruta_de_la_mejor_cocina_italo_mediterr_nea_en_nuestro_restaurante_italiano_de_c_rdoba_ubicado_en_el_centro_de_la_ciudad_en_la_avenida_gran_capit_n_te_ofrecemos_la_mayor_variedad_de_pasta_pizza_risotto_y_una_selecci_n_de_especialidades_en_nuestro_local_con_capacidad_para_160_personas_y_con_una_amplia_terraza_disfruta_en_pareja_en_grupo_de_amigos_en_familia_gracias_a_la_zona_piccolino_infantil_o_en_grupo_ya_que_contamos_con_un_sal_n_privado">¡Disfruta de la mejor cocina italo-mediterránea en nuestro restaurante italiano de Córdoba! Ubicado en el centro de la ciudad, en la avenida Gran Capitán, te ofrecemos la mayor variedad de pasta, pizza, risotto y una selección de especialidades en nuestro local con capacidad para 160 personas y con una amplia terraza. Disfruta en pareja, en grupo de amigos, en familia gracias a la Zona Piccolino infantil o en grupo, ya que contamos con un salón privado.</string>
+    <string name="si_lo_deseas_tambi_n_colaboramos_con_diferentes_plataformas_para_que_puedas_recibir_tu_comida_italiana_favorita_a_domicilio_en_c_rdoba_y_s_entre_nuestras_especialidades_italianas_tambi_n_se_encuentra_la_pizza_en_concreto_m_s_de_una_veintena_de_opciones_somos_una_de_las_pizzer_as_de_referencia_en_c_rdoba_as_que_no_te_quedes_sin_probar_nuestras_pizzas_y_p_delas_para_llevar_a_domicilio_o_para_comer_en_el_restaurante">Si lo deseas, también colaboramos con diferentes plataformas para que puedas recibir tu comida italiana favorita a domicilio en Córdoba. ¡Y sí! Entre nuestras especialidades italianas también se encuentra la pizza, en concreto, más de una veintena de opciones. Somos una de las pizzerías de referencia en Córdoba así que, ¡no te quedes sin probar nuestras pizzas y pídelas para llevar, a domicilio o para comer en el restaurante!</string>
+    <string name="inicio">Inicio</string>
+    <string name="title_activity_largue_image">LargueImageActivity</string>
+    <string name="title_activity_large_image">LargeImageActivity</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="Latitud">Latitud</string>
+    <string name="Longitud">Longitud</string>
+    <string name="mapa_del_restaurante">Mapa del Restaurante</string>
+    <string name="todos">TODO</string>
+
+
+</resources>
