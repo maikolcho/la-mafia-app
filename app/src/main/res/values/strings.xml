@@ -40,8 +40,6 @@
     <string name="app_name">La Mafia</string>
     <string name="todo" />
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="google_maps_api_key">AIzaSyBWkI6FyRWRjBnFJCbq_CyW4jX4xTQsBgY
-    </string>
     <string name="reserva_tu_mesa">RESERVA TU MESA</string>
     <string name="abrir_glovo">Abrir Glovo</string>
     <string name="abrir_just_eat">Abrir Just Eat</string>
