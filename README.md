@@ -1,6 +1,6 @@
 # La Mafia Se Sienta a la Mesa — App Android 🍝
 
-App nativa Android para el restaurante italiano **"La Mafia Se Sienta en la Mesa"** (Córdoba). Proyecto desarrollado como pieza de portafolio para demostrar manejo de desarrollo Android nativo con Java.
+App nativa Android para el restaurante italiano **"La Mafia Se Sienta en la Mesa"** (Córdoba). Proyecto desarrollado como pieza de portafolio para demostrar manejo de desarrollo Android nativo con Java y Kotlin.
 
 ## 📱 Sobre el proyecto
 
@@ -9,7 +9,7 @@ La app funciona como punto de contacto digital del restaurante: presenta el loca
 ## ✨ Funcionalidades
 
 - **Inicio** — video de bienvenida de fondo, acceso directo a reserva de mesa y pedidos a domicilio
-- **Información** — datos del restaurante, ubicación, horarios y medios de pago aceptados
+- **Información** — datos del restaurante, mapa interactivo de Google Maps con la ubicación, horarios y medios de pago aceptados
 - **Carta** — acceso directo a la carta digital del restaurante
 - **Menús** — galería de menús especiales para compartir (Bari, Positano, etc.)
 - **Fotos** — galería del local con selector de imagen ampliada
@@ -17,7 +17,8 @@ La app funciona como punto de contacto digital del restaurante: presenta el loca
 
 ## 🛠️ Tecnologías
 
-- **Java** sobre Android SDK (Views + Fragments)
+- **Java** sobre Android SDK (Views + Fragments) — pantallas de la app
+- **Kotlin** — configuración de tema para Jetpack Compose incluida en el proyecto
 - **Material Components** — `BottomNavigationView` para la navegación principal
 - **Glide** — carga, recorte (`centerCrop`) y esquinas redondeadas de imágenes
 - **Google Maps / Location Services**
